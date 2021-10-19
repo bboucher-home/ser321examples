@@ -17,6 +17,11 @@ public class Fraction {
       numerator = denominator = 0;
    }
 
+   public Fraction(int num, int denom) {
+	numerator = num;
+	denominator = denom;
+   }
+
    public void print() {
     System.out.print(numerator + "/" + denominator );
    }
